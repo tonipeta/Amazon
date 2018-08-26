@@ -7,7 +7,9 @@ Test Setup  Begin Web Test
 Test Teardown  End Web Test
 Suite Teardown  Clean Up Testing Data
 
+
 *** Variables ***
+# Test version control
 ${BROWSER} =  ie
 ${START_URL} =  http://www.amazon.com
 ${SEARCH_TERM} =  Ferrari 458
